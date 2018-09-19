@@ -1,0 +1,101 @@
+.signupinfo{
+  position: absolute;
+  margin-left: 38%;
+  margin-right: 50%;
+  top:100px;
+  background-color: #E5E5E5;
+  width: 390px;
+  height: 360px;
+}
+
+.signupbtn {
+  color: white;
+  background-color: #4CAF50;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  opacity: 0.6;
+  border: 2px solid #000000;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 35%;
+}
+
+.signupbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.signupbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top:0;
+  right: -5px;
+  transition: 0.5s;
+}
+
+.signupbtn:hover {
+  opacity: 1;
+}
+
+.signupbtn:hover span {
+  padding-right: 15px;
+  opacity: 1;
+  background-color: #4CAF50;
+}
+
+.signupbtn:hover span:after {
+  opacity: 1;
+  right:0;
+}
+
+.signupbtn:active {
+  background-color: #4CAF50;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.ipbox {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin:5px 20px 10px 80px;
+}
+
+.reg-no{
+  margin:-23px 20px 5px 5px;
+}
+
+.reg-box {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin:5px 20px 10px 14px;
+}
+
+.first-last {
+  margin:5px 20px 5px 5px;
+}
+
+.email-pass {
+  margin:-23px 20px 5px 5px;
+}
+
+.email-box {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 5px 20px 10px 105px;
+}
+
+.pass-box{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 5px 20px 10px 88px;
+}
